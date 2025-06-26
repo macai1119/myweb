@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px soild red;
+}
+
+:root {
+  /*Color*/
+  --primary-color: #d282a6;
+  --secondary-color: red;
+  --background-color: lightpink;
+  --content-background: #ffd3e8;
+  --text-color: #333;
+  --white: white;
+
+  /*Spacing*/
+  --spacing-small: 0.5rem; /*8px */
+  --spacing-medium: 1rem; /*16px */
+  --spacing-large: 1.5rem; /*24px */
+  --spacing-xlarhe: 2rem; /*32px */
+
+  /*typography*/
+  --front-faimly: Ariel, sans-serif;
+  --front-size-large: 2.5rem;
+  --line-height: 1.6;
+}
+.nav-link:hover {
+  background-color: var(--primary-color);
+}
+.content-link {
+  color: var(--primary-color);
+}
+
+body {
+  front-famil: var(--fornt-family);
+  line-height: var(--line-height);
+  background-color: var(--background-color);
+  color: #333;
+}
+
+.site-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2em;
+  front-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.Site-title {
+  front-size: var(--font-size-large);
+  margin: 0;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 2rem auto 1rem auto;
+  padding: var(--spacing-xlarge);
+  background-color: var(--content-background);
+  border: 16px soild white;
+  border-radius: var(--spacing-small);
+  box-shadow: 0 2px 10px rgba (0, 0, 0, 0.1);
+}
+
+{
+text-align:center;
+  line-height:2.5em;
+  
+}
+
+.facts-grid,
+.intro-section,
+.hobbies-section,
+.facts-section {
+  padding: 1.5rem 0;
+  margin-bottom: var(--primary-color);
+  border-bottom: 5px soild #eee;
+}
+
+.main-content:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.highlight {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+}
+.site-footer {
+  background-color: var(--content-background);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-medium);
+  margin-top: var(--spacing-xlarge);
+}
+  
+  
+  chewy-regular{
+   font-family:"Chewy", system-ui;
+    font-weight: 400;
+    font-style:normal;
+}
+
+img{
+max-width:100%;
+height: auto;
+ }
+
+.hobby{
+  display:flex;
+  flex-direction:coluum;
+  gap:2rem;
+ }
+ 
+}
+@keyframe fadeSlidein 0%{
+opacity:0;
+transform: translatey(20px)
+}
+100%{
+  opcity:1;
+  transform: translatey(0);
+}
+ 
+.site-title{
+ opcity:0;
+  animation:fadeSlideIn 1s ease-out forwards;
+  animation-delay:0.5s;
+  }
+img:hover{
+  transform:translatey(-10px);
+  transition:transform 0.3s ease;
+}
+  
+  
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+    
+  }
+
